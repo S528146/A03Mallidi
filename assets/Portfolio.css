@@ -1,0 +1,51 @@
+
+h1{
+	text-align: center;
+	color: red;
+}
+body{
+background-image: url("bg1.jpg");
+background-repeat: no-repeat;
+}
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+    width:100%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}
+ 
+body footer{         
+position: absolute;
+
+text-align: center;
+
+bottom: 20px;
+right: 10%;
+}
+.container {
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+}
+#anudeep{
+    align:center;
+    padding-left: 70px;
+ }

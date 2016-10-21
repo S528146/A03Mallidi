@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<script language="JavaScript">
+
+function milesConvert()
+{
+var form = document.forms[0];
+
+var miles = form.miles1.value;
+var km = miles * 1.609;
+
+form.km1.value = km;
+}    
+
+function kmConvert()
+{
+var form = document.forms[0];
+
+var km = form.km2.value;
+var miles = km * .6214
+
+form.miles2.value=miles;
+}
+
+function yardsConvert()
+{
+var form = document.forms[0];
+
+var yards = form.yards1.value;
+var meters = yards * .9144;
+
+form.meters1.value = meters;
+}
+
+function metersConvert()
+{
+var form = document.forms[0];
+
+var meters = form.meters2.value;
+var yards = meters * 1.0936;
+
+form.yards2.value=yards;
+}
+</script>
+</head>
+
+<body bgcolor=#FFFFFF>
+
+<form name=f>
+
+MILES TO KILOMETERS:<br>
+<input type=text name=miles1 value=""> <input type=text name=km1 value=""> <input type=button value=convert onclick="JavaScript:milesConvert()">
+<br><br>
+KILOMETERS TO MILES:<br>
+<input type=text name=km2 value=""> <input type=text name=miles2 value=""> <input type=button value=convert onclick="JavaScript:kmConvert()">
+<br><br>
+YARDS TO METERS:<br>
+<input type=text name=yards1 value=""> <input type=text name=meters1 value=""> <input type=button value=convert onclick="JavaScript:yardsConvert()">
+<br><br>
+METERS TO YARDS:<br>
+<input type=text name=meters2 value=""> <input type=text name=yards2 value=""> <input type=button value=convert onclick="JavaScript:metersConvert()">
+</form>
+
+
+</body>
+
+</html>
